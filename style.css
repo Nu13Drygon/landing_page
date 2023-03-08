@@ -87,5 +87,26 @@ nav {
     border: 5px solid #555;
 }
 
+.page-quote {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px;
+    background-color: #a9b3c0;
+    margin: 10px 0;
+}
+
+.quote {
+    flex: 1 1 50px;
+}
+
+.quote-name {
+    text-align: center;
+}
+
+
+
+
+
+
 
 
