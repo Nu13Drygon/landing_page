@@ -64,5 +64,23 @@ nav {
     max-width: 500px;
 }
 
+.main-header {
+    text-align: center;
+}
+
+.main-section {
+    display: flex;
+    padding: 10px 200px;
+    text-align: center;
+    gap: 20px;
+}
+
+.main-img > img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 10%;
+    border: 5px solid #555;
+}
+
 
 
