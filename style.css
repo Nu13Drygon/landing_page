@@ -24,6 +24,7 @@ body {
 nav {
     display: flex;
     align-items: center;
+    padding: 0 70px;
 }
 
 .img-logo {
@@ -49,16 +50,13 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    padding: 50px;
+    padding: 50px 100px;
     gap: 30px;
 }
 
 .headline {
     flex: 1 1 300px;
-}
-
-.headline-img {
-    flex: 1 1 300px;
+    padding: 0 50px;
 }
 
 .headline-img > img {
