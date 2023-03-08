@@ -57,11 +57,13 @@ nav {
     flex: 1 1 300px;
 }
 
-
+.headline-img {
+    flex: 1 1 300px;
+}
 
 .headline-img > img {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 
