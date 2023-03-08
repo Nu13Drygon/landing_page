@@ -70,9 +70,14 @@ nav {
 
 .main-section {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px 200px;
     text-align: center;
     gap: 20px;
+}
+
+.main-img {
+    flex: 1 1 150px;
 }
 
 .main-img > img {
