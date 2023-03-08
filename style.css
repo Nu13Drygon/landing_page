@@ -5,8 +5,38 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
-/* 
+
 body {
     display: flex;
-    justify-content: center;
-} */
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #a9b3c0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    padding: 0;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+}
+
