@@ -119,8 +119,6 @@ nav {
     align-self: center;
 }
 
-
-
 .action-quote > h3 {
     margin: 0;
 }
@@ -129,7 +127,11 @@ nav {
     margin: 0;
 }
 
-
+footer {
+    background-color: #a9b3c0;
+    width: 100%;
+    text-align: center;
+}
 
 
 
