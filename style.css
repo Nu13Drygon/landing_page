@@ -90,7 +90,7 @@ nav {
 .page-quote {
     display: flex;
     flex-direction: column;
-    padding: 40px 100px;
+    padding: 40px 20%;
     background-color: #a9b3c0;
     margin: 10px 0;
 }
@@ -111,8 +111,9 @@ nav {
     background-color: bisque;
     border-radius: 5px;
     height: 100px;
-    width: 500px;
+    width: 80%;
     align-items: center;
+    flex: 1;
 }
 
 .action-call > button {
